@@ -1,0 +1,11 @@
+
+ADD      A,D      
+    LOADN  64 
+ LOADA    192 
+  JLT    D,     3 
+COPY    D   ,A
+  JMP 9
+STORE     254 
+JEQ   A       ,  3
+  JGT A   ,  255   
+  SUB D,  A   
